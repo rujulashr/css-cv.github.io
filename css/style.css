@@ -6,19 +6,21 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-	background-color: rgb(32, 32, 32);
+  align-items: center;
+	background-color: #222222;
   padding: 10px 10px 15px 10px;
   font-family:'Crimson Text', sans-serif;
-  color: white;
+  color: #FAFAFA;
+  height: 30px;
 }
 
 nav a {
-  color: white;
+  color: #FAFAFA;
   text-decoration: none;
 }
 
 nav a:hover {
-  color: blue;
+  color: #728da1;
   text-decoration: underline;
 }
 
@@ -36,32 +38,35 @@ footer a {
 }
 
 footer a:hover {
-  color: blue;
+  color: #297cbc;
   text-decoration: underline;
 }
 
 /*********** Splash Page ************************/
 header {
+  background-color: #FAFAFA;
   display: flex;
   flex-direction: column;
   font-family:'Crimson Text', sans-serif;
-  background-color: aliceblue;
   align-items: center;
 }
 
 header h1 {
   font-family:'Crimson Text', sans-serif;
-  color: #000080;
+  font-size: 40px;
+  /* color: #000080;*/
+  color: #333333;
 }
 
 header img {
   border: 5px solid;
   border-radius: 50%;
+  border-color: #333333;
   margin: 0px 0px 5px 0px;
 }
 
 .address {
- background-color: aliceblue;
+ background-color: #FAFAFA;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -73,7 +78,7 @@ header img {
 .tagline {
   display: flex;
   justify-content: center;
-  background-color: aliceblue;
+  background-color: #FAFAFA;
   font-family:'Crimson Text', sans-serif;
   padding: 5px 0px 10px 0px;
   margin: 0px 5px;
@@ -82,7 +87,7 @@ header img {
 /************* Sections ********************/
 hr {
   margin: 0px;
-  border: black solid;
+  border: #222222 solid;
 }
 
 h2 {
@@ -134,7 +139,7 @@ section a:hover {
   border: solid 5px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   margin: 5px;
-  background-color: aliceblue;
+  background-color: #FAFAFA;
 }
 
 .container {
