@@ -44,9 +44,9 @@
         <h2>Education</h2>
         <dl> <!-- Apparently mismatched dt dd pairs?! -->
             <dt><b>Walton High School</b></dt><dd>GPA: 4.3</dd>
-            <dt><i>High School Diploma</i></dt><dd>Graduated: May 2023</dd>
+            <dt><i>High School Diploma</i></dt><dd>Graduation: May 2023</dd>
             <dt><b>University of Georgia</b></dt><dd>GPA: 3.5</dd>
-            <dt><i>Bachelors of Science in Computer Science</i></dt><dd>Expected Graduation: May 2027</dd>
+            <dt><i>Bachelors of Science in Computer Science</i></dt><dd>Graduation: May 2027 (Expected)</dd>
         </dl>
     </section>
 
@@ -62,7 +62,7 @@
     <!-- Skills Section -->
     <section>
         <h2>Skills</h2>
-        <ul>
+        <ul class="skills">
             <li>Java</li>
             <li>C/C++</li>
             <li>HTML/CSS</li>
@@ -86,39 +86,53 @@
     <!-- Projects Section -->
     <section>
         <h2>Projects</h2>
+        <p class="info">These are the project I have completed. Hover over each project to see more details regarding the projects.</p>
         <div class="three-col">
         <div class="card">
             <!--Insert Project 1 -->
-            <img src="images/WWLogo.jpg" alt="Logo I created for Wellness Checker Project" style="width:100%"><br>
-            <div class="container">
-                <h3>Wellness Watch</h3><br>
-                <ul>
-                    <li>Developed a wellness tracker app using Java for CSCI 1302 to analyze user data and provide feedback.</li>
-                    <li>Integrated external APIs for daily reflections and emotional synonym suggestions.</li>
-                </ul>
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="images/WWLogo.jpg" alt="Logo I created for Wellness Checker Project">
+                </div>
+                <div class="card-back">
+                    <h3>Wellness Watch</h3><br>
+                    <ul class="details">
+                        <li>Developed a wellness tracker app using Java for CSCI 1302 to analyze user data and provide feedback.</li>
+                        <li>Integrated external APIs for daily reflections and emotional synonym suggestions.</li>
+                    </ul>
+                </div>
             </div>
+            <!-- <div class="container"></div> -->
         </div>
         <div class="card">
             <!-- Insert Project 2 -->
-             <img src="images/Wordle7Logo.jpg" alt="Logo I created for my Wordle game" style="width:100%"><br>
-             <div class="container">
-                <h3>Wordle7</h3><br>
-                <ul>
-                    <li>Built a word-guessing game using Java with real-time feedback on guesses.</li>
-                    <li>Implemented logic to indicate letter correctness and placement.</li>
-                </ul>
+             <div class="card-inner">
+                <div class="card-front">
+                    <img src="images/Wordle7Logo.jpg" alt="Logo I created for my Wordle game">
+                </div>
+                <div class="card-back">
+                    <h3>Wordle7</h3><br>
+                    <ul class="details">
+                        <li>Built a word-guessing game using Java with real-time feedback on guesses.</li>
+                        <li>Implemented logic to indicate letter correctness and placement.</li>
+                    </ul>
+                </div>
              </div>
         </div>
         <div class="card">
             <!-- Insert Project 3 -->
-             <img src="images/SurveyLogo.jpg" alt="Survey Form I created" style="width:100%"><br>
-             <div class="container">
-                <h3>Survey Sheet</h3><br>
-                <ul>
-                    <li>Created a Survey Sheet inspired by Google Forms</li>
-                    <li>Utilized HTML, CSS, Javascript</li>
-                    <li><a href="https://rujulashr.github.io/Survey-Project/">Take a look at my survey!</a></li>
-                </ul>
+             <div class="card-inner">
+                <div class="card-front">
+                    <img src="images/SurveyLogo.jpg" alt="Survey Form I created">
+                </div>
+                <div class="card-back">
+                    <h3>Survey Sheet</h3><br>
+                    <ul class="details">
+                        <li>Created a Survey Sheet inspired by Google Forms</li>
+                        <li>Utilized HTML, CSS, Javascript</li>
+                        <li><a href="https://rujulashr.github.io/Survey-Project/">Take a look at my survey!</a></li>
+                    </ul>
+                </div>
              </div>  
         </div>
         </div>
@@ -126,9 +140,9 @@
 
     <!--footer section -->
     <footer>
-        &#169; <a href="contact.html">Rujula Shrestha</a><br>
-        <i class="fa-brands fa-square-linkedin"></i>
-        <a href="https://www.linkedin.com/in/rujula-shrestha/">Rujula Shrestha LinkedIn</a>
+            &#169; 2025 Rujula Shrestha
+            <i class="fa-brands fa-square-linkedin"></i>
+            <a href="https://www.linkedin.com/in/rujula-shrestha/"> Rujula Shrestha LinkedIn</a>
     </footer>
 </body>
 </html>
